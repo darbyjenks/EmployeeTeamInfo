@@ -1,6 +1,15 @@
 function makeCardArray(team){
    const managerArray = team.filter(employee => employee.getRole() === 'Manager');
-   console.log(managerArray);
+//    return JSON.stringify(managerArray, null);
+    return managerArray.toString();
+//    .replace(/[\W_]+/g," ")
+   console.log((managerArray));
+   const internArray = team.filter(employee => employee.getRole() === 'Intern');
+   console.log(internArray);
+//    return internArray;
+   const engineerArray = team.filter(employee => employee.getRole() === 'Engineer');
+   console.log(engineerArray);
+//    return engineerArray;
 }
 //each type of employee... make sure value returned is a string
 function makeHtml(team){
