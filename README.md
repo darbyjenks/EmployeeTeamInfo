@@ -14,7 +14,7 @@
    node index.js will bring up the prompts
   ## Usage 
   just open the created HTML into default browser <br>
-  [How to use](https://watch.screencastify.com/v/dktGsRnwPfWbJ92Uxqqk)
+  [How to use](https://watch.screencastify.com/v/cGc1fQhgHcFJfZWAODze)
   ## Contribution 
   N/A <br>
   [Contributor Covenant](https://www.contributor-covenant.org/)
